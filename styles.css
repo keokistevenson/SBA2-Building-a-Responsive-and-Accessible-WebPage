@@ -1,7 +1,34 @@
 /* Global Styles */
 
+.checklist {
+  list-style: none;
+  columns: 2;
+
+  color: #1d3557;;
+  font-weight: bold;
+}
+
+.checklist li::marker {
+  content: '✓ ';
+
+  color: rgb(255, 115, 0);
+  font-size: 1.3em;
+
+
+}
+
 nav ul {
     list-style-type: none;
+}
+
+.blue {
+    color: #1d3557;
+    font-style: italic;
+}
+
+.orange {
+    color: rgb(255, 115, 0);
+    font-style: italic;
 }
 
 
@@ -64,7 +91,7 @@ header p {
   position: relative;
   width: 100%;
   overflow: hidden;
-  border: 2px solid purple;
+  border: 5px solid purple;
 }
 
 .hero .btn {
@@ -107,6 +134,25 @@ header p {
     text-align: center;
 
 }
+
+/* Did  You Know? */
+
+aside {
+
+    border-radius: 15%;
+    background-color: #1d3557;
+    border: 25px solid rgb(255, 115, 0);
+    color: white;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+#mission {
+    font-size: 3em;
+}
+
 
 /* Footer Styles */
 
