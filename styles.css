@@ -1,0 +1,63 @@
+#top-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+#top-nav { 
+    /*008C8C */
+
+    background-color: #1d3557;
+    border-top: 7px solid  #2BB3B1;
+    
+    border-bottom: 5px solid  rgb(255, 115, 0);
+    }
+
+#top-nav a {
+    display: block;
+    border: 4px solid  #1d3557;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#logo {
+    width: 20em;
+
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header p {
+    font-style: italic;
+}
+
+#hero-image {
+    width: 50em;
+
+}
+
+#moto {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(255, 115, 0);
+}
+
+footer {
+border-top: 10px solid rgb(255, 115, 0);
+  background-color: #1d3557;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
