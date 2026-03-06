@@ -1,11 +1,20 @@
-#top-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-
-}
+/* Global Styles */
 
 nav ul {
     list-style-type: none;
+}
+
+
+/* Header Styles */
+
+header .container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header p {
+    font-style: italic;
 }
 
 #top-nav { 
@@ -28,24 +37,13 @@ nav ul {
 
 }
 
+#top-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #logo {
     width: 20em;
-
-}
-
-header .container {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-header p {
-    font-style: italic;
-}
-
-#hero-image {
-    width: 50em;
-
 }
 
 #moto {
@@ -53,6 +51,64 @@ header p {
     font-weight: bold;
     color: rgb(255, 115, 0);
 }
+
+#test {
+    border: 1px solid black;
+}
+
+
+
+/* Hero Styles */
+
+.hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border: 2px solid purple;
+}
+
+.hero .btn {
+  display: inline-block;
+  background: rgb(255, 115, 0);
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+
+.hero-content {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+
+  
+  max-width: 650px;
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+#hero-image {
+    width: 50em;
+
+}
+
+.center-content {
+    max-width: 650px;
+    text-align: center;
+
+}
+
+/* Footer Styles */
 
 footer {
 border-top: 10px solid rgb(255, 115, 0);
