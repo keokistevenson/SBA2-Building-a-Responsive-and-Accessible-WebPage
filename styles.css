@@ -1,20 +1,19 @@
 /* Global Styles */
 
 .checklist {
-  list-style: none;
-  columns: 2;
+    list-style: none;
+    columns: 2;
 
-  color: #1d3557;;
-  font-weight: bold;
+    color: #1d3557;
+
+    font-weight: bold;
 }
 
-.checklist li::marker {
-  content: '✓ ';
+.checklist li::before {
+    content: '✓ ';
 
-  color: rgb(255, 115, 0);
-  font-size: 1.3em;
-
-
+    color: rgb(255, 115, 0);
+    font-size: 1.3em;
 }
 
 nav ul {
@@ -31,31 +30,37 @@ nav ul {
     font-style: italic;
 }
 
+.marrs-green {
+        color: #008C8C;
+    font-style: italic;
+}
+
+
 
 /* Header Styles */
 
 header .container {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 header p {
     font-style: italic;
 }
 
-#top-nav { 
+#top-nav {
     /*008C8C */
 
     background-color: #1d3557;
-    border-top: 7px solid  #2BB3B1;
-    
-    border-bottom: 5px solid  rgb(255, 115, 0);
-    }
+    border-top: 7px solid #2BB3B1;
+
+    border-bottom: 5px solid rgb(255, 115, 0);
+}
 
 #top-nav a {
     display: block;
-    border: 4px solid  #1d3557;
+    border: 4px solid #1d3557;
     color: white;
     text-decoration: none;
     width: 100px;
@@ -85,47 +90,104 @@ header p {
 
 
 
+
+
+
 /* Hero Styles */
 
-.hero {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  border: 5px solid purple;
+#hero {
+    position: relative;
+    width: 100%;
 }
 
-.hero .btn {
-  display: inline-block;
-  background: rgb(255, 115, 0);
-  color: white;
-  padding: 12px 20px;
-  text-decoration: none;
-  border-radius: 6px;
+#hero .btn {
+    display: inline-block;
+    background: rgb(255, 115, 0);
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
 }
 
 
 .hero-content {
-  position: absolute;
-  top: 5%;
-  left: 5%;
+    position: absolute;
+    top: 5%;
+    left: 14%;
 
-  
-  max-width: 650px;
+
+    max-width: 650px;
 }
 
 .hero-content h1 {
-  font-size: 2rem;
-  margin-bottom: 15px;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
 }
 
 .hero-content p {
-  font-size: 1.1rem;
-  margin-bottom: 20px;
-  font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+} 
+
+
+
+
+/* Groups */
+
+#group {
+display: grid;
+grid-template-columns: .7fr 1fr;
+gap: 30px;
+align-items: center;
 }
 
+
+
+/* Hero Styles */
+
+/* .hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border: 5px solid purple;
+}
+
+.hero .btn {
+    display: inline-block;
+    background: rgb(255, 115, 0);
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+
+.hero-content {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+
+
+    max-width: 650px;
+}
+
+.hero-content h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+} */
+
 #hero-image {
-    width: 50em;
+
+ width: 100%;
+  height: auto;
+  display: block;
 
 }
 
@@ -134,6 +196,11 @@ header p {
     text-align: center;
 
 }
+
+#why {
+    padding: 100px;
+}
+
 
 /* Did  You Know? */
 
@@ -150,16 +217,18 @@ aside {
 }
 
 #mission {
-    font-size: 3em;
+    font-size: 2.3em;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    text-align: center;
 }
-
 
 /* Footer Styles */
 
 footer {
-border-top: 10px solid rgb(255, 115, 0);
-  background-color: #1d3557;
-  color: white;
-  padding: 40px 0;
-  text-align: center;
+    border-top: 10px solid rgb(255, 115, 0);
+    background-color: #1d3557;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
 }
