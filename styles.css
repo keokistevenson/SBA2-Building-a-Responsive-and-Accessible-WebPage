@@ -31,7 +31,7 @@ nav ul {
 }
 
 .marrs-green {
-        color: #008C8C;
+    color: #008C8C;
     font-style: italic;
 }
 
@@ -128,7 +128,7 @@ header p {
     font-size: 1.1rem;
     margin-bottom: 20px;
     font-weight: 500;
-} 
+}
 
 
 
@@ -136,10 +136,10 @@ header p {
 /* Groups */
 
 #group {
-display: grid;
-grid-template-columns: .7fr 1fr;
-gap: 30px;
-align-items: center;
+    display: grid;
+    grid-template-columns: .7fr 1fr;
+    gap: 30px;
+    align-items: center;
 }
 
 
@@ -185,9 +185,9 @@ align-items: center;
 
 #hero-image {
 
- width: 100%;
-  height: auto;
-  display: block;
+    width: 100%;
+    height: auto;
+    display: block;
 
 }
 
@@ -209,7 +209,7 @@ align-items: center;
 
 #about h2 {
     margin-top: 40px;
-    
+
 }
 
 
@@ -218,7 +218,7 @@ align-items: center;
 
 }
 
-.about-organizing p{
+.about-organizing p {
     font-size: 1.5em;
 
 }
@@ -228,7 +228,7 @@ align-items: center;
 
 aside {
 
-    border-radius: 15%;
+    border-radius: 50%;
     background-color: #1d3557;
     border: 25px solid rgb(255, 115, 0);
     color: white;
@@ -243,6 +243,10 @@ aside {
     border-top: 2px solid gray;
     border-bottom: 2px solid gray;
     text-align: center;
+}
+
+#mission p {
+    margin: 25px 0;
 }
 
 /* Footer Styles */
