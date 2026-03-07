@@ -12,4 +12,4 @@ Response: I wasted too much time on colors and design.  I hope i have more time 
 
 What tools or resources did you find most helpful during this project?
 
-Response:I just wish we had more time to develop a nice website.  Not sure why we couldn't be given the weekend to work on it. I will try to check using the browser form factor. If i have time I will try to check teh contrast. I was wasting a lot of time on hover. I didn't know it was required. Tried to make it pretty. BAD IDEA!
+Response:I just wish we had more time to develop a nice website.  Not sure why we couldn't be given the weekend to work on it. I will try to check using the browser form factor. If i have time I will try to check teh contrast. I was wasting a lot of time on hover. I didn't know it was required. Tried to make it pretty. BAD IDEA!  I still need work on the mobile view even though i shrank the window to the smallest Chrome identified other improvements. I'll see if i can get these in.
