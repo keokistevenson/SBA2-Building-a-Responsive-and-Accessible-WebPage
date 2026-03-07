@@ -84,6 +84,7 @@ header p {
     font-size: 2em;
     font-weight: bold;
     color: rgb(255, 115, 0);
+    margin: 0px;
 }
 
 #test {
@@ -292,11 +293,6 @@ aside {
     line-height: 1.6;
 }
 
-@media (max-width: 768px) {
-    .services {
-        grid-template-columns: 1fr;
-    }
-}
 
 /* Contact Section */
 
@@ -392,4 +388,61 @@ footer {
     color: white;
     padding: 40px 0;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+
+header .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+#logo {
+    width: 14em;
+}
+
+#moto {
+    font-size: 1.4em;
+}
+
+    .hero-content h1 {
+    font-size: 1.2rem;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    margin-bottom: 150px;
+    font-weight: 500;
+    width: 350px;
+}
+
+#hero .btn {
+    padding: 5px;
+}
+
+
+    #why {
+        padding: 20px;
+        font-size: .9em;
+    }
+
+    #mission {
+        font-size: 2em;
+
+    }
+
+    #group {
+        grid-template-columns: 1fr;
+
+    }
+
+    .services {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+    }
 }
