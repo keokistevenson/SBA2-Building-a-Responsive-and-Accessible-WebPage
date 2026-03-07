@@ -201,6 +201,28 @@ align-items: center;
     padding: 100px;
 }
 
+/* About Section */
+
+#about .container {
+    border-bottom: 1px solid black;
+}
+
+#about h2 {
+    margin-top: 40px;
+    
+}
+
+
+.about-organizing {
+    display: flex;
+
+}
+
+.about-organizing p{
+    font-size: 1.5em;
+
+}
+
 
 /* Did  You Know? */
 
