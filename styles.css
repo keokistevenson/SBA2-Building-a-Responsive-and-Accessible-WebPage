@@ -299,27 +299,89 @@ aside {
 }
 
 /* Contact Section */
+
+#contact {
+    padding: 70px 20px 90px;
+}
+
+#contact .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-header h2 {
+    margin-bottom: 12px;
+}
+
+.contact-header p {
+    margin: 0;
+}
+
 .contact-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.contact-info {
+    padding-top: 10px;
+}
+
+.contact-info h3,
+.contact-info h4 {
+    margin-top: 0;
+    margin-bottom: 18px;
 }
 
 .contact-info p {
-  margin-bottom: 15px;
+    margin: 0 0 24px;
+    line-height: 1.7;
 }
 
-form label {
-  display: block;
-  margin-top: 15px;
+#contact form {
+    max-width: 100%;
 }
 
-input, textarea {
-  width: 100%;
-  padding: 8px;
-  margin-top: 5px;
+#contact form div {
+    margin-bottom: 20px;
 }
 
+#contact label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 12px 14px;
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+#contact textarea {
+    min-height: 160px;
+    resize: vertical;
+}
+
+#contact button {
+    margin-top: 8px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #f97316;
+    color: white;
+
+}
 
 
 /* Footer Styles */
