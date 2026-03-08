@@ -36,13 +36,7 @@ A responsive accessibility-focused website demonstrating modern HTML and CSS lay
   <em>Click the preview to open the live site</em>
 </p>
 
-### Static Screenshot
 
-<p align="center">
-  <img src="images/EnhancingAbilities-Screenshot.png" alt="Enhancing Abilities website screenshot" width="800">
-</p>
-
----
 
 ## About the Project
 
@@ -78,6 +72,14 @@ It demonstrates how thoughtful design can make websites easier to navigate and m
 - Responsive design
 - Git / GitHub
 
+
+### Static Screenshot
+
+<p align="center">
+  <img src="images/EnhancingAbilities-Screenshot.png" alt="Enhancing Abilities website screenshot" width="800">
+</p>
+
+
 ---
 ## What I Practiced
 
@@ -96,6 +98,27 @@ See a preview here:
 
 
 https://keokistevenson.github.io/SBA2-Building-a-Responsive-and-Accessible-WebPage/
+
+---
+
+## Key Takeaways
+
+- Semantic HTML structure improves accessibility and long-term maintainability.
+- Responsive layout requires testing across multiple viewport sizes early in development.
+- Version control made it easier to iterate on layout and styling decisions safely.
+
+---
+
+## Known Issues
+
+- Mobile layout still needs refinement for smaller devices.
+
+---
+
+## Planned Improvements
+
+- Improve mobile responsiveness with additional media queries.
+- Conduct further accessibility testing.
 
 
 ---
