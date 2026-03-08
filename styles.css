@@ -3,15 +3,12 @@
 .checklist {
     list-style: none;
     columns: 2;
-
     color: #1d3557;
-
     font-weight: bold;
 }
 
 .checklist li::before {
     content: '✓ ';
-
     color: rgb(255, 115, 0);
     font-size: 1.3em;
 }
@@ -19,8 +16,6 @@
 nav ul {
     list-style-type: none;
 }
-
-
 
 .blue {
     color: #1d3557;
@@ -38,7 +33,6 @@ nav ul {
 }
 
 
-
 /* Header Styles */
 
 header .container {
@@ -53,10 +47,8 @@ header p {
 
 #top-nav {
     /*008C8C */
-
     background-color: #1d3557;
     border-top: 7px solid #2BB3B1;
-
     border-bottom: 5px solid rgb(255, 115, 0);
 }
 
@@ -68,7 +60,6 @@ header p {
     width: 100px;
     text-align: center;
     font-weight: bold;
-
 }
 
 #top-nav ul {
@@ -92,10 +83,6 @@ header p {
 }
 
 
-
-
-
-
 /* Hero Styles */
 
 #hero {
@@ -112,13 +99,10 @@ header p {
     border-radius: 6px;
 }
 
-
 .hero-content {
     position: absolute;
     top: 5%;
     left: 14%;
-
-
     max-width: 650px;
 }
 
@@ -134,8 +118,6 @@ header p {
 }
 
 
-
-
 /* Groups */
 
 #group {
@@ -145,64 +127,21 @@ header p {
     align-items: center;
 }
 
-
-
-/* Hero Styles */
-
-/* .hero {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    border: 5px solid purple;
-}
-
-.hero .btn {
-    display: inline-block;
-    background: rgb(255, 115, 0);
-    color: white;
-    padding: 12px 20px;
-    text-decoration: none;
-    border-radius: 6px;
-}
-
-
-.hero-content {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-
-
-    max-width: 650px;
-}
-
-.hero-content h1 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-}
-
-.hero-content p {
-    font-size: 1.1rem;
-    margin-bottom: 20px;
-    font-weight: 500;
-} */
-
 #hero-image {
-
     width: 100%;
     height: auto;
     display: block;
-
 }
 
 .center-content {
     max-width: 650px;
     text-align: center;
-
 }
 
 #why {
     padding: 100px;
 }
+
 
 /* About Section */
 
@@ -212,25 +151,20 @@ header p {
 
 #about h2 {
     margin-top: 40px;
-
 }
-
 
 .about-organizing {
     display: flex;
-
 }
 
 .about-organizing p {
     font-size: 1.5em;
-
 }
 
 
 /* Did  You Know? */
 
 aside {
-
     border-radius: 50%;
     background-color: #1d3557;
     border: 25px solid rgb(255, 115, 0);
@@ -240,6 +174,7 @@ aside {
     padding: 20px;
     text-align: center;
 }
+
 
 /* Mission Section */
 
@@ -376,7 +311,6 @@ aside {
     border-radius: 6px;
     background-color: #f97316;
     color: white;
-
 }
 
 
@@ -392,20 +326,20 @@ footer {
 
 @media (max-width: 768px) {
 
-header .container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 5px;
-}
+    header .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 5px;
+    }
 
-#logo {
-    width: 14em;
-}
+    #logo {
+        width: 14em;
+    }
 
-#moto {
-    font-size: 1.4em;
-}
+    #moto {
+        font-size: 1.4em;
+    }
 
     .hero-content h1 {
     font-size: 1.2rem;
@@ -430,12 +364,10 @@ header .container {
 
     #mission {
         font-size: 2em;
-
     }
 
     #group {
         grid-template-columns: 1fr;
-
     }
 
     .services {
