@@ -342,20 +342,19 @@ footer {
     }
 
     .hero-content h1 {
-    font-size: 1.2rem;
-}
+        font-size: 1.2rem;
+    }
 
-.hero-content p {
-    font-size: 1rem;
-    margin-bottom: 150px;
-    font-weight: 500;
-    width: 350px;
-}
+    .hero-content p {
+        font-size: 1rem;
+        margin-bottom: 150px;
+        font-weight: 500;
+        width: 350px;
+    }
 
-#hero .btn {
-    padding: 5px;
-}
-
+    #hero .btn {
+        padding: 5px;
+    }
 
     #why {
         padding: 20px;
